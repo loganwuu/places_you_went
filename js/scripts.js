@@ -3,15 +3,15 @@ $(document).ready(function() {
         $("#new-landmarks").append('<div class="new-landmark landmark">' +
                                         '<div class="form-group">' +
                                             '<label for="new-name">Name</label>' +
-                                            '<input type="text" class="form-control" id="new-name">' +
+                                            '<input type="text" class="form-control new-name">' +
                                         '</div>' +
                                         '<div class="form-group">' +
                                             '<label for="new-address">Address</label>' +
-                                            '<input type="text" class="form-control" id="new-address">' +
+                                            '<input type="text" class="form-control new-address">' +
                                         '</div>' +
                                         '<div class="form-group">' +
                                             '<label for="new-description">Description</label>' +
-                                            '<input type="text" class="form-control" id="new-description">' +
+                                            '<input type="text" class="form-control new-description">' +
                                         '</div>' +
                                     '</div>');
     });
