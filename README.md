@@ -6,7 +6,7 @@
 
 ## Description
 
-Input fields include ```city```, ```country```, ```landmarks```, ```time of year``` and ```notes```. Users are allowed to create multiple ```landmarks``` within the object ```newCity```.
+Input fields include ```city```, ```country```, ```landmarks```, ```time of year``` and ```notes```. Users are also allowed to create multiple ```landmarks``` within the object ```newCity```.
 
 ## Setup
 

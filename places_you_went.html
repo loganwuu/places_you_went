@@ -24,10 +24,6 @@
                             <input type="text" class="form-control" id="new-country">
                         </div>
                         <div class="form-group">
-                            <label for="new-landmark">Landmark</label>
-                            <input type="text" class="form-control" id="new-landmark">
-                        </div>
-                        <div class="form-group">
                             <label for="new-date">Date visited</label>
                             <input type="date" class="form-control" id="new-date">
                         </div>
@@ -36,6 +32,28 @@
                             <input type="text" class="form-control" id="new-notes">
                         </div>
 
+                        <!-- add multiple landmarks -->
+                        <div id="new-landmarks">
+                            <h3>
+                                Landmarks visited:
+                            </h3>
+                            <div class="landmark">
+                                <div class="form-group">
+                                    <label for="new-name">Name</label>
+                                    <input type="text" class="form-control new-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="new-address">Address</label>
+                                    <input type="text" class="form-control new-address">
+                                </div>
+                                <div class="form-group">
+                                    <label for="new-description">Description</label>
+                                    <input type="text" class="form-control new-description">
+                                </div>
+                            </div>
+                        </div>
+
+                        <span class="btn btn-primary" id="add-landmark">Another landmark</span>
                         <button type="submit" class="btn">Add</button>
                     </form>
 
@@ -48,11 +66,11 @@
                     <div id="show-place">
                         <h2></h2>
 
-                        <p>City: <span class="city"></span></p>
-                        <p>Country: <span class="country"></span></p>
-                        <p>Landmark: <span class="landmark"></span></p>
                         <p>Date visited: <span class="date"></span></p>
                         <p>Notes: <span class="notes"></span></p>
+                        <p>Landmarks:</p>
+                            <ul id="landmarks"></ul>
+
                     </div>
                 </div>
             </div>
