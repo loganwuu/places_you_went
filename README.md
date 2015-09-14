@@ -6,12 +6,12 @@
 
 ## Description
 
-Input fields include ```city```, ```country```, ```landmarks```, ```time of year``` and ```notes```. 
+Input fields include ```city```, ```country```, ```landmarks```, ```time of year``` and ```notes```. Users are allowed to create multiple ```landmarks``` within the object ```newCity```.
 
 ## Setup
 
 * Clone the project using the link provided on Github in the Terminal.
-* Open "address-book.html" from the main project folder.
+* Open "places_you_went.html" from the main project folder.
 
 ## Technologies Used
 
