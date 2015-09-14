@@ -61,9 +61,9 @@ $(document).ready(function() {
 
             $("ul#landmarks").text("");
             newPlace.landmarks.forEach(function(landmark) {
-                $("ul#landmarks").append("<li>" + "<ul>" + "<strong>" + landmark.name + "</strong>" +
-                                                  "<li>" + landmark.address + "</li>" +
-                                                  "<li>" + landmark.description + "</li>" + "</ul>");
+                $("ul#landmarks").append("<li>" + "<strong>" + landmark.name + "</strong>" +
+                                                "<ul>" + "<li>" + landmark.address + "</li>" +
+                                                         "<li>" + landmark.description + "</li>" + "</ul>");
             })
         });
     });
